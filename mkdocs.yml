@@ -1,6 +1,6 @@
 site_name: "{{ username }}.github.io"
 site_url: "https://{{ username }}.github.io"
-repo_url: "https://github.com/{{ username }}/{{ repo_name }}basic-info/"
+repo_url: "https://github.com/{{ username }}/{{ repo_name }}"
 repo_name: !ENV GITHUB_REPOSITORY
 theme:
   name: material
@@ -37,46 +37,46 @@ theme:
       accent: purple
 
 nav:
-  - Preamble: basic-info/index.md
-  - What is Plex?: basic-info/what-is-plex.md
-  - Is Plex safe to use?: basic-info/plex-safety.md
+  - Preamble: docs/basic-info/index.md
+  - What is Plex?: docs/basic-info/what-is-plex.md
+  - Is Plex safe to use?: docs/basic-info/plex-safety.md
   - Setup:
-    - Pinning Libraries: setup/pinning-libraries.md
-    - Managing Newsletter Subscriptions: setup/unsubscribe-from-plex-newsletter.md
-    - Disabling Online Media Sources: setup/disabling-online-media-sources.md
-    - Requesting Content: setup/requesting-content.md
+    - Pinning Libraries: docs/setup/pinning-libraries.md
+    - Managing Newsletter Subscriptions: docs/setup/unsubscribe-from-plex-newsletter.md
+    - Disabling Online Media Sources: docs/setup/disabling-online-media-sources.md
+    - Requesting Content: docs/setup/requesting-content.md
+    - Reporting Issues: docs/setup/reporting-issues.md
     - Changing Plex streaming quality:
-      - setup/changing-stream-quality/index.md
-      - iOS & Android: setup/changing-stream-quality/ios-android.md
-      - tvOS (Apple TV): setup/changing-stream-quality/tv-os.md
-      - Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO): setup/changing-stream-quality/streaming-devices.md
-      - Web Browser: setup/changing-stream-quality/web-browser.md
+      - docs/setup/changing-stream-quality/index.md
+      - iOS & Android: docs/setup/changing-stream-quality/ios-android.md
+      - tvOS (Apple TV): docs/setup/changing-stream-quality/tv-os.md
+      - Amazon Fire TV, Android TV, PlayStation 4/5, Xbox, Roku, Smart TV (LG, Samsung, VIZIO): docs/setup/changing-stream-quality/streaming-devices.md
+      - Web Browser: docs/setup/changing-stream-quality/web-browser.md
   - FAQ:
-    - What is transcoding?: faq/what-is-transcoding.md
-    - Why do I need to buy the Plex app on my phone?: faq/why-do-i-to-buy-plex-app.md
-    - My video won't stop buffering: faq/wont-stop-buffering.md
-    - Help, I forgot my Plex password!: faq/forgot-password.md
-    - How do I add items to my Plex Universal Watchlist?: faq/adding-to-universal-watchlist.md
-    - Responsible Content Requesting: faq/responsible-content-requests.md
-    - I requested something an hour ago but it hasn't shown up yet. Why?: faq/missing-requests.md
-    - I'm having a problem with a Movie or TV Show: faq/content-issues.md
-    - Content Quality and Language Options: faq/special-requests.md
-    - I don't want to use this request thingy, can't I just tell you what I want?: faq/i-dont-want-to-use-overseerr.md
-    - Missing Confirmation Emails: faq/missing-emails.md
-    - Can I share your Plex server with someone else?: faq/can-i-share-your-plex.md
-    - Plex is awesome! Can I send you some money to support it?: faq/how-can-i-support-you.md
-    - Why Bitrate Matters: faq/why-bitrate-matters.md
+    - What is transcoding?: docs/faq/what-is-transcoding.md
+    - Why do I need to buy the Plex app on my phone?: docs/faq/why-do-i-to-buy-plex-app.md
+    - My video won't stop buffering: docs/faq/wont-stop-buffering.md
+    - Help, I forgot my Plex password!: docs/faq/forgot-password.md
+    - How do I add items to my Plex Universal Watchlist?: docs/faq/adding-to-universal-watchlist.md
+    - Responsible Content Requesting: docs/faq/responsible-content-requests.md
+    - I requested something an hour ago but it hasn't shown up yet. Why?: docs/faq/missing-requests.md
+    - I'm having a problem with a Movie or TV Show: docs/faq/content-issues.md
+    - Content Quality and Language Options: docs/faq/special-requests.md
+    - I don't want to use this request thingy, can't I just tell you what I want?: docs/faq/i-dont-want-to-use-overseerr.md
+    - Can I share your Plex server with someone else?: docs/faq/can-i-share-your-plex.md
+    - Plex is awesome! Can I send you some money to support it?: docs/faq/how-can-i-support-you.md
+    - Why Bitrate Matters: docs/faq/why-bitrate-matters.md
   - My Setup:
-    - 3rd-party-app-info/index.md
+    - docs/3rd-party-app-info/index.md
     - 3rd Pary Applications:
-      - Unraid: 3rd-party-app-info/unraid-information.md
-      - Overseerr: 3rd-party-app-info/overseerr-information.md
-      - Tautulli: 3rd-party-app-info/tautulli-information.md
-      - Sync-Lounge: 3rd-party-app-info/sync-lounge-information.md
-      - ARR Applications: 3rd-party-app-info/arr-information.md
-      - qBittorrent: 3rd-party-app-info/qbittorrent-information.md
-      - Plexamp: 3rd-party-app-info/plexamp-information.md
-  - Useful Links: basic-info/useful-links.md
+      - Unraid: docs/3rd-party-app-info/unraid-information.md
+      - Overseerr: docs/3rd-party-app-info/overseerr-information.md
+      - Tautulli: docs/3rd-party-app-info/tautulli-information.md
+      - Sync-Lounge: docs/3rd-party-app-info/sync-lounge-information.md
+      - ARR Applications: docs/3rd-party-app-info/arr-information.md
+      - qBittorrent: docs/3rd-party-app-info/qbittorrent-information.md
+      - Plexamp: docs/3rd-party-app-info/plexamp-information.md
+  - Useful Links: docs/basic-info/useful-links.md
 
 plugins:
   - search
@@ -141,7 +141,8 @@ extra:
     plex_url: "plex.ptolemi.net"
     tuatulli_url: "tautulli.ptolemi.net"
     syncelounge_url: "sync-lounge.ptolemi.net"
-    plex_libraries: "Movies and TV Shows"
+    plex_libraries: ".anime, .movies, .television, .movies, .stand-up, .music"
+    pms_server_name: "deep.thought"
     noreply_email: "noreply@example.com"
 
   env:

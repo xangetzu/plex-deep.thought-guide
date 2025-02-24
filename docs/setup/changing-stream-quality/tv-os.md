@@ -2,6 +2,6 @@
 
 !!! example "tvOS (Apple TV)"
 
-    ![Example](../assets/images/change-stream-quality-apple-tv.webp)
+    ![Example](/docs/assets/images/change-stream-quality-apple-tv.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
