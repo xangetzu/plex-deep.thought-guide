@@ -5,18 +5,12 @@ New Plex accounts are automatically subscribed to Plex's company newsletter. Thi
 
 !!! example "How-to: Unsubscribing from Plex's Newsletter"
 
-    ![Example](assets/images/unsubscribe-from-plex-newsletter.webp)
+    ![Example](../assets/images/unsubscribe-from-plex-newsletter.webp)
 
     **Source**: [plxplainers.xyz](https://www.plxplainers.xyz/)
 
 ## My Weekly Newsletter
-I send out a separate, personal newsletter every Friday at 5:00 PM. You can identify it by:
+I no longer send out a weekly newsletter and instead have pushed all that content onto discord along with other updates on server status and so on.
 
-- Email address sending this newsletter will be `{{ vars.noreply_email }}`
-- The newsletter itself will have a logo with the name of my Plex server
-
-If you'd like to unsubscribe from my newsletter, please contact me privately.
-
-!!! example ""
-
-    ![Example](assets/images/custom-newsletter.webp)
+!!! note
+    It is highly recommended you reach out to me on [discord](https://discord.com/users/401938150877954048) in order to be added to the dedicated server I have set up for **deep.thought**. This will enable you to receive notifications when media is added or when the server is down. It also happens to be the only way to reach out to me directly with questions.

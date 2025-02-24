@@ -25,7 +25,7 @@ Communication is very important to me. To that end, I use both Tautulli and Over
 In the future, I plan on adding better communication around server availability because it suffers from being local to the actual plex server. Meaning, it can't report to discord if something outside of my home happens such as the internet going down. I need an external application to do that type of monitoring. I'd also like to leverage with the **ARR** applications can muster as well, by indicating when they have found the requested content and begin downloading it. 
 
 !!! note
-    It is highly recomended you reach out to me on [discord](https://discord.com/users/401938150877954048) in order to be added to the dedicated server I have set up for **deep.thought**. This will enable you to receive notifications when media is added or when the server is down. It also happens to be the only way to reach out to me directly with questions.
+    It is highly recommended you reach out to me on [discord](https://discord.com/users/401938150877954048) in order to be added to the dedicated server I have set up for **deep.thought**. This will enable you to receive notifications when media is added or when the server is down. It also happens to be the only way to reach out to me directly with questions.
 
 ## **Maintenance and Updates**
 
